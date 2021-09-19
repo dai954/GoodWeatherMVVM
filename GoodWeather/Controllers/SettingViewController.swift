@@ -32,7 +32,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     @objc private func doneTapped() {
-        print("doneTapped")
+        
         if let delegate = self.delegate {
             delegate.settingDone(vm: settingViewModel)
         }
